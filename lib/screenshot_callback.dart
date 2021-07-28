@@ -34,7 +34,6 @@ class ScreenshotCallback {
 
   /// Add void callback.
   void addListener(VoidCallback callback) {
-    assert(callback != null, 'A non-null callback must be provided.');
     onCallbacks.add(callback);
   }
 
