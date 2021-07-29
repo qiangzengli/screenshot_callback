@@ -37,6 +37,11 @@ class ScreenshotCallback {
     onCallbacks.add(callback);
   }
 
+  /// Remove void callback.
+  void removeListener(VoidCallback callback) {
+    onCallbacks.remove(callback);
+  }
+
   Future<dynamic> _handleMethod(MethodCall call) async {
     switch (call.method) {
       case 'onCallback':
