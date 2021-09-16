@@ -34,6 +34,9 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
 }
 //获取local.properties配置文件
 
