@@ -3,7 +3,8 @@ description: Demonstrates how to use the screenshot_callback plugin.
 publish_to: 'none'
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.15.0 <=3.0.3"
+  flutter: ">=3.10.4"
 
 dependencies:
   flutter:
